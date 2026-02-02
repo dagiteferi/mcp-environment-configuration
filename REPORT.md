@@ -15,7 +15,7 @@ This report talks about the TRP 1 - MCP Setup Challenge's activities, results, p
 
 *   **MCP Connection:** The Tenx MCP server connection was successfully established and remained active throughout the assessment, ensuring all interactions were tracked and logged as required.
 *   **Rules Improvements:** The updates to the `.github/copilot-instructions.md` file significantly improved Copilot's behavior. The agent now consistently plans its approach before generating code and suggests verification steps, which has led to a noticeable reduction in errors and untested changes during development tasks.
-*   **Boris-inspired Workflow:** The implementation of a "plan" mode, directly inspired by Boris Cherny's workflow, proved highly effective. This approach resulted in fewer iterations and more thoughtful, high-quality code suggestions, with the verification step boosting overall reliability.
+*   **Boris-inspired Workflow:** Implementing a "plan" mode based on the methods developed by Boris Cherny has shown to be a very successful implementation. Using this mode of working resulted in fewer iterations while producing higher quality, more thought-out code recommendations through the verification stage improving overall reliability.
 
 ## What Didn't Work / Challenges Faced
 
