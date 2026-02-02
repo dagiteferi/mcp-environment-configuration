@@ -26,7 +26,7 @@ This report talks about the TRP 1 - MCP Setup Challenge's activities, results, p
 
 *   **Rules Align AI to My Thought Patterns:** Now that planning and verification steps are required, the AI agent (Copilot) reflects my own step-by-step approach to developing software. Due to this alignment, there will be fewer differences between my expectations when using Copilot and what it delivers. As a result, what may have previously been a hasty suggestion for code, has become a more deliberate and structured draft by the agent.
 *   **Behavioral Changes and Efficiency:** Implementing a system that records identified errors and gives performance reviews, has demonstrated tangible reductions in the Agent's errors due to the ability to track corrections. The performance influence ensures that every coding session becomes more efficient through the growth of the Agent by leveraging prior experiences.
-*   **Verification is Key:** Extensive research, particularly drawing from the insights of Boris Cherny, underscored the critical importance of a robust verification process in AI-assisted coding. Practical testing confirmed that integrating explicit verification steps makes the AI agent approximately twice as reliable for my specific development stack, directly contributing to higher quality and more trustworthy outputs.
+*   **Verification is Key:** Research, especially from Boris Cherny, has shown the importance of having a strong verification process with AI coding assistance. My practical experience showed that adding clear verification steps to the AI tool I worked with made it nearly double the quality and trustworthiness of the development stack in which I worked.
 
 ## Code Analysis and Contextual Understanding
 
