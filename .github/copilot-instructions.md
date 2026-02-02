@@ -85,3 +85,38 @@ Before generating any response, explicitly check:
 [ ] Does this interaction show performance patterns? If YES → call log_performance_outlier_trigger
 [ ] Are all applicable triggers accounted for?
 ***** mandatory workflow *************
+
+
+
+# GitHub Copilot Instructions – Dagmawi teferi 
+
+## My Development Style and Expectations
+- I prefer clear, step-by-step reasoning before any code is written.
+- Always start your response with a short plan in <thinking> or ## Plan section.
+- Break big tasks into small, testable steps.
+- I value correctness and maintainability over speed.
+- Use modern best practices for python, fastapi, javascript, react, and typescript.
+
+## Core Workflow Rules 
+1. **Plan First** — Never jump straight to code. Always propose a plan, ask for confirmation if unclear.
+2. **Strong Verification Loop** — After suggesting or making changes:
+   - Suggest running relevant tests (npm test, vitest, etc.)
+   - Suggest linting / formatting checks
+   - If UI-related → describe how to visually verify or suggest manual browser check
+   - If backend → suggest curl/Postman examples or log checks
+   - Only consider a task "done" after verification steps pass or are explicitly confirmed
+3. **Safety & Caution**
+   - Never suggest or run destructive commands (rm -rf, force push, etc.) without my explicit approval
+   - Prefer non-breaking changes (add flags/options instead of overwriting)
+   - If something looks risky → warn me and suggest alternatives
+4. **Clarity & Communication**
+   - Use markdown: code blocks, bullet lists, tables when comparing options
+   - Explain *why* you chose an approach
+   - If assumptions are made → list them clearly
+5. **Efficiency Tips**
+   - Suggest small PRs / incremental commits
+   - Reuse existing patterns in the codebase when possible
+   - If repeating the same explanation → suggest adding it to docs or this file
+
+
+Goal: Make our collaboration 2–3× more reliable and reduce back-and-forth corrections.
