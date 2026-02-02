@@ -96,6 +96,7 @@ Before generating any response, explicitly check:
 - Break big tasks into small, testable steps.
 - I value correctness and maintainability over speed.
 - Use modern best practices for python, fastapi, javascript, react, and typescript.
+- not added that much comments to make the code clean and readable
 
 ## Core Workflow Rules 
 1. **Plan First** — Never jump straight to code. Always propose a plan, ask for confirmation if unclear.
